@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Unit Classes\Unit.cpp" />
+    <ClCompile Include="Unit Containers\earthArmy.cpp" />
+    <ClCompile Include="Unit Containers\alienArmy.cpp" />
+    <ClCompile Include="Unit Classes\earthTank.cpp" />
+    <ClCompile Include="Unit Classes\earthGunnery.cpp" />
+    <ClCompile Include="Unit Classes\alienSoldier.cpp" />
+    <ClCompile Include="Unit Classes\alienMonster.cpp" />
+    <ClCompile Include="Unit Classes\earthSoldier.cpp" />
+    <ClCompile Include="Unit Classes\alienDrone.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="randGen.cpp" />
+    <ClCompile Include="Unit Classes\healUnit.cpp" />
+    <ClCompile Include="Unit Classes\saverUnit.cpp" />
+    <ClCompile Include="Unit Containers\alliedArmy.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DS\ArrayStack.h" />
+    <ClInclude Include="DS\StackADT.h" />
+    <ClInclude Include="DS\QueueADT.h" />
+    <ClInclude Include="DS\Node.h" />
+    <ClInclude Include="DS\LinkedQueue.h" />
+    <ClInclude Include="DS\priNode.h" />
+    <ClInclude Include="DS\priQueue.h" />
+    <ClInclude Include="Unit Classes\Unit.h" />
+    <ClInclude Include="Utility Files\globalConstants.h" />
+    <ClInclude Include="Unit Containers\earthArmy.h" />
+    <ClInclude Include="Unit Classes\earthTank.h" />
+    <ClInclude Include="Unit Containers\alienArmy.h" />
+    <ClInclude Include="Unit Classes\earthGunnery.h" />
+    <ClInclude Include="Unit Classes\alienSoldier.h" />
+    <ClInclude Include="Unit Classes\alienMonster.h" />
+    <ClInclude Include="Unit Classes\earthSoldier.h" />
+    <ClInclude Include="DS\DEqueue.h" />
+    <ClInclude Include="DS\doublyNode.h" />
+    <ClInclude Include="Unit Classes\alienDrone.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="randGen.h" />
+    <ClInclude Include="DS\MonstersADT.h" />
+    <ClInclude Include="Unit Classes\healUnit.h" />
+    <ClInclude Include="Unit Classes\saverUnit.h" />
+    <ClInclude Include="Unit Containers\alliedArmy.h" />
+    <ClInclude Include="globalConstants.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Utility Files\Sample_Input.txt" />
+    <Text Include="Input_Files\weak_weak.txt" />
+    <Text Include="Input_Files\strong_strong.txt" />
+    <Text Include="Input_Files\strong_weak.txt" />
+    <Text Include="Input_Files\weak_strong.txt" />
+    <Text Include="Input_Files\strong_moderate.txt" />
+    <Text Include="Input_Files\weak_moderate.txt" />
+  </ItemGroup>
+</Project>
